@@ -1,0 +1,48 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="sidebar-wrapper">
+    <ul class="nav">
+
+
+
+
+
+        <li class="nav-item active ">
+            <a class="nav-link" href="ProcessBookList">
+                <i class="material-icons">list_alt</i>
+                <p>Book List</p>
+            </a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="ProcessCreateBookPage">
+                <i class="material-icons">library_books</i>
+                <p>Create Book</p>
+            </a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="ProcessCreateAuthorPage">
+                <i class="material-icons">person_add</i>
+                <p>Create Author</p>
+            </a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link" href="ProcessToCreatePublisherPage">
+                <i class="material-icons">business</i>
+                <p>Create Publisher</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="ProcessToCreateCategoryPage">
+                <i class="material-icons">category</i>
+                <p>Create Category</p>
+            </a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="report.html">
+                <i class="material-icons">report</i>
+                <p>Report</p>
+            </a>
+        </li>
+    </ul>
+</div>

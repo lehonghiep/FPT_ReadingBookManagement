@@ -1,0 +1,36 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="featured-search first-style for-all-page search-form">
+		<div class="container">
+			<form class="form-inline" id="search">
+				<input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
+				<i class="fa fa-search fa-lg" aria-hidden="true"></i>
+			</form>
+			<select class="selectpicker show-menu-arrow choice">
+				<option disabled>Category</option>
+				<option>Action and Adventure</option>
+				<option>Romance</option>
+				<option>Horror</option>
+				<option>Self Help</option>
+				<option>Poetry</option>
+				<option>Comics</option>
+				<option>Fantasy</option>
+				<option>Satire</option>
+				<option>Science Fiction</option>
+			</select>
+			<select class="selectpicker show-menu-arrow choice2">
+				<option disabled>Publisher</option>
+				<option>Penguin Random House</option>
+				<option>Simon & Schuster</option>
+				<option>Marvel</option>
+				<option>Macmillan Publishers</option>
+				<option>NXB Kim Dong</option>
+				<option> Hachette Book Group USA</option>
+				<option>Harper Collins</option>
+				<option> Oxford University Press</option>
+				<option>Cambridge University Press</option>
+			</select>
+			<a href="ProcessLogout" id="login"><b>Log out</b></a>
+			<i class="fa fa-user-circle fa-3x" style="float: right;"></i>
+		</div>  
+	</div>
